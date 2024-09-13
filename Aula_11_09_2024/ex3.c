@@ -1,6 +1,6 @@
 //ex3
 
-//imprimir de 10 até 1
+//imprimir de 10 atÃ© 1
 //10
 //9
 //8
