@@ -4,7 +4,7 @@
 
 int main(){
 	
-	//imprimir os números de 1 a 100;
+	//imprimir os nÃºmeros de 1 a 100;
 	
 	int i = 1;
 	
