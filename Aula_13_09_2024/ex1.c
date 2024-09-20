@@ -3,8 +3,8 @@
 int main() {
     int num, fatorial = 1, i;
 
-    // Solicita ao usuÃ¡rio um nÃºmero inteiro positivo
-    printf("Digite um nÃºmero inteiro positivo: ");
+    // Solicita ao usuário um número inteiro positivo
+    printf("Digite um número inteiro positivo: ");
     scanf("%d", &num);
 
         // Calcula o fatorial usando um loop "while"
@@ -14,6 +14,6 @@ int main() {
             i--; // Decrementa i
         }
         // Exibe o resultado do fatorial
-        printf("O fatorial de %d Ã© %d\n", num, fatorial);
+        printf("O fatorial de %d é %d\n", num, fatorial);
     return 0;
 }
