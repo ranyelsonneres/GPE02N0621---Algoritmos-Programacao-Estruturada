@@ -1,4 +1,4 @@
-//ex4 - struct com função (sem retorno)
+//ex4 - struct com funÃ§Ã£o (sem retorno)
 
 #include <stdio.h>
 
@@ -7,19 +7,19 @@ struct Produto {
 	char nome[50];
 };
 
-//função
+//procedimento
 void exibirProduto(struct Produto produto){
 	printf("Nome: %s", produto.nome);
 }
 
-//função principal
+//funÃ§Ã£o principal
 int main(){
 	struct Produto p1;
 	
 	printf("Nome: ");
 	fgets(p1.nome, 50, stdin); //leitura dos dados
 	
-	exibirProduto(p1); //chamando a função
+	exibirProduto(p1); //chamando a funÃ§Ã£o
 	
 	return 0;
 }
